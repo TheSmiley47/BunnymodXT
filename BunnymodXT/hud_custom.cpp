@@ -491,7 +491,8 @@ namespace CustomHud
 			out.setf(std::ios::fixed);
 			out.precision(precision);
 			out << "Pitch: " << player.viewangles[0] << "\n"
-				<< "Yaw: " << player.viewangles[1];
+				<< "Yaw: " << player.viewangles[1] << "\n"
+				<< "Roll: " << player.viewangles[2];
 
 			DrawMultilineString(x, y, out.str());
 		}
