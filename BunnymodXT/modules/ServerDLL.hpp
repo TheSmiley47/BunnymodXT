@@ -117,7 +117,8 @@ protected:
 
 	static const ptrdiff_t offFuncIsPlayer = 0x9C;
 	static const ptrdiff_t offFuncCenter = 0xC8;
-	static const ptrdiff_t offFuncObjectCaps = 0x14;
+
+	ptrdiff_t offFuncObjectCaps = 0x14;
 
 	ptrdiff_t offNihilanthLevel;
 	ptrdiff_t offNihilanthIrritation;
