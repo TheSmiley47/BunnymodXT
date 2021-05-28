@@ -1772,7 +1772,6 @@ struct HwDLL::Cmd_BXT_CH_Set_Angles
 		vec[0] = x;
 		vec[1] = y;
 		vec[2] = 0.0f;
-		//ClientDLL::GetInstance().pEngfuncs->SetViewAngles(vec);
 
 		(*hw.sv_player)->v.angles = vec;
 		hw.SetViewangles(vec);
