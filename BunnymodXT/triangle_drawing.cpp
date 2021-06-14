@@ -204,7 +204,7 @@ namespace TriangleDrawing
 			auto corner_positions = trigger.get_corner_positions();
 
 			pTriAPI->RenderMode(kRenderTransAdd);
-			pTriAPI->Color4f(1.0f, 0.5f, 0.0f, 0.3f);
+			pTriAPI->Color4f(1.0f, 1.0f, 1.0f, 0.3f);
 			TriangleUtils::DrawAACuboid(pTriAPI, corner_positions.first, corner_positions.second);
 
 			pTriAPI->RenderMode(kRenderTransColor);
